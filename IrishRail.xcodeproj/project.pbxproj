@@ -14,6 +14,35 @@
 		8D27BB4524D2EDD900DE62AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D27BB4424D2EDD900DE62AA /* Assets.xcassets */; };
 		8D27BB4824D2EDD900DE62AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D27BB4624D2EDD900DE62AA /* LaunchScreen.storyboard */; };
 		8D27BB5324D2EDD900DE62AA /* IrishRailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB5224D2EDD900DE62AA /* IrishRailTests.swift */; };
+		8D27BB5E24D2EF5300DE62AA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D27BB5D24D2EF5300DE62AA /* Colors.xcassets */; };
+		8D27BB6424D2F06500DE62AA /* ServerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB6324D2F06500DE62AA /* ServerConstants.swift */; };
+		8D27BB6624D2F09900DE62AA /* InternalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB6524D2F09900DE62AA /* InternalError.swift */; };
+		8D27BB6824D2F0CF00DE62AA /* ServiceLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB6724D2F0CF00DE62AA /* ServiceLogic.swift */; };
+		8D27BB6A24D2F15300DE62AA /* AdditionalServerDataLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB6924D2F15300DE62AA /* AdditionalServerDataLogic.swift */; };
+		8D27BB6C24D2F19600DE62AA /* AdditionalServerParseLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB6B24D2F19600DE62AA /* AdditionalServerParseLogic.swift */; };
+		8D27BB6E24D2F1DC00DE62AA /* TrainDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB6D24D2F1DC00DE62AA /* TrainDirection.swift */; };
+		8D27BB7024D2F21E00DE62AA /* PClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB6F24D2F21E00DE62AA /* PClassName.swift */; };
+		8D27BB7324D2F27200DE62AA /* URLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB7224D2F27200DE62AA /* URLSession+Extension.swift */; };
+		8D27BB7524D2F2A000DE62AA /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB7424D2F2A000DE62AA /* Date+Extension.swift */; };
+		8D27BB7724D2F2EF00DE62AA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB7624D2F2EF00DE62AA /* String+Extension.swift */; };
+		8D27BB7924D2F3EA00DE62AA /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB7824D2F3EA00DE62AA /* UIApplication+Extension.swift */; };
+		8D27BB7B24D2F41200DE62AA /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB7A24D2F41200DE62AA /* UITableView+Extension.swift */; };
+		8D27BB7D24D2F44A00DE62AA /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB7C24D2F44A00DE62AA /* UITableViewCell+Extension.swift */; };
+		8D27BB7F24D2F47800DE62AA /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB7E24D2F47800DE62AA /* NSObject+Extension.swift */; };
+		8D27BB8124D2F4B100DE62AA /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB8024D2F4B100DE62AA /* UIColor+Extension.swift */; };
+		8D27BB8324D2F4F200DE62AA /* TrainInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB8224D2F4F200DE62AA /* TrainInfo.swift */; };
+		8D27BB8524D2F52F00DE62AA /* TrainsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB8424D2F52F00DE62AA /* TrainsViewModel.swift */; };
+		8D27BB8824D2F5F800DE62AA /* CustomOperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB8724D2F5F800DE62AA /* CustomOperationQueue.swift */; };
+		8D27BB8A24D2F62600DE62AA /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB8924D2F62600DE62AA /* LoadingState.swift */; };
+		8D27BB8C24D2F66700DE62AA /* TableViewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB8B24D2F66700DE62AA /* TableViewConstants.swift */; };
+		8D27BB8E24D2F6AA00DE62AA /* TrainsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB8D24D2F6AA00DE62AA /* TrainsService.swift */; };
+		8D27BB9024D2F6E200DE62AA /* ConcreteTrainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB8F24D2F6E200DE62AA /* ConcreteTrainService.swift */; };
+		8D27BB9324D2F79400DE62AA /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB9224D2F79400DE62AA /* PaddingLabel.swift */; };
+		8D27BB9824D2F85A00DE62AA /* TrainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB9624D2F85A00DE62AA /* TrainCell.swift */; };
+		8D27BB9924D2F85A00DE62AA /* TrainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D27BB9724D2F85A00DE62AA /* TrainCell.xib */; };
+		8D27BB9B24D2F99800DE62AA /* MenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB9A24D2F99800DE62AA /* MenuSwiftUIView.swift */; };
+		8D27BB9D24D2FA1F00DE62AA /* NearestTrainsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB9C24D2FA1F00DE62AA /* NearestTrainsDataSource.swift */; };
+		8D27BB9F24D2FA7900DE62AA /* NearestTrainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D27BB9E24D2FA7900DE62AA /* NearestTrainsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +67,35 @@
 		8D27BB4E24D2EDD900DE62AA /* IrishRailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrishRailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D27BB5224D2EDD900DE62AA /* IrishRailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IrishRailTests.swift; sourceTree = "<group>"; };
 		8D27BB5424D2EDD900DE62AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D27BB5D24D2EF5300DE62AA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		8D27BB6324D2F06500DE62AA /* ServerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConstants.swift; sourceTree = "<group>"; };
+		8D27BB6524D2F09900DE62AA /* InternalError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalError.swift; sourceTree = "<group>"; };
+		8D27BB6724D2F0CF00DE62AA /* ServiceLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLogic.swift; sourceTree = "<group>"; };
+		8D27BB6924D2F15300DE62AA /* AdditionalServerDataLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalServerDataLogic.swift; sourceTree = "<group>"; };
+		8D27BB6B24D2F19600DE62AA /* AdditionalServerParseLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalServerParseLogic.swift; sourceTree = "<group>"; };
+		8D27BB6D24D2F1DC00DE62AA /* TrainDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDirection.swift; sourceTree = "<group>"; };
+		8D27BB6F24D2F21E00DE62AA /* PClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PClassName.swift; sourceTree = "<group>"; };
+		8D27BB7224D2F27200DE62AA /* URLSession+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extension.swift"; sourceTree = "<group>"; };
+		8D27BB7424D2F2A000DE62AA /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		8D27BB7624D2F2EF00DE62AA /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		8D27BB7824D2F3EA00DE62AA /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		8D27BB7A24D2F41200DE62AA /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		8D27BB7C24D2F44A00DE62AA /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		8D27BB7E24D2F47800DE62AA /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		8D27BB8024D2F4B100DE62AA /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		8D27BB8224D2F4F200DE62AA /* TrainInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainInfo.swift; sourceTree = "<group>"; };
+		8D27BB8424D2F52F00DE62AA /* TrainsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainsViewModel.swift; sourceTree = "<group>"; };
+		8D27BB8724D2F5F800DE62AA /* CustomOperationQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperationQueue.swift; sourceTree = "<group>"; };
+		8D27BB8924D2F62600DE62AA /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		8D27BB8B24D2F66700DE62AA /* TableViewConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewConstants.swift; sourceTree = "<group>"; };
+		8D27BB8D24D2F6AA00DE62AA /* TrainsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainsService.swift; sourceTree = "<group>"; };
+		8D27BB8F24D2F6E200DE62AA /* ConcreteTrainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteTrainService.swift; sourceTree = "<group>"; };
+		8D27BB9224D2F79400DE62AA /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		8D27BB9624D2F85A00DE62AA /* TrainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCell.swift; sourceTree = "<group>"; };
+		8D27BB9724D2F85A00DE62AA /* TrainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrainCell.xib; sourceTree = "<group>"; };
+		8D27BB9A24D2F99800DE62AA /* MenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView.swift; sourceTree = "<group>"; };
+		8D27BB9C24D2FA1F00DE62AA /* NearestTrainsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestTrainsDataSource.swift; sourceTree = "<group>"; };
+		8D27BB9E24D2FA7900DE62AA /* NearestTrainsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestTrainsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +137,17 @@
 		8D27BB3A24D2EDD700DE62AA /* IrishRail */ = {
 			isa = PBXGroup;
 			children = (
+				8D27BB9424D2F7D900DE62AA /* Trains */,
+				8D27BB9124D2F76700DE62AA /* CustomViews */,
+				8D27BB8624D2F5AF00DE62AA /* General */,
+				8D27BB7124D2F24000DE62AA /* Extensions */,
+				8D27BB5F24D2EFF100DE62AA /* Services */,
 				8D27BB3B24D2EDD700DE62AA /* AppDelegate.swift */,
 				8D27BB3D24D2EDD700DE62AA /* SceneDelegate.swift */,
 				8D27BB3F24D2EDD700DE62AA /* ViewController.swift */,
 				8D27BB4124D2EDD700DE62AA /* Main.storyboard */,
 				8D27BB4424D2EDD900DE62AA /* Assets.xcassets */,
+				8D27BB5D24D2EF5300DE62AA /* Colors.xcassets */,
 				8D27BB4624D2EDD900DE62AA /* LaunchScreen.storyboard */,
 				8D27BB4924D2EDD900DE62AA /* Info.plist */,
 			);
@@ -97,6 +161,101 @@
 				8D27BB5424D2EDD900DE62AA /* Info.plist */,
 			);
 			path = IrishRailTests;
+			sourceTree = "<group>";
+		};
+		8D27BB5F24D2EFF100DE62AA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D27BB6024D2F00500DE62AA /* Trains */,
+				8D27BB6324D2F06500DE62AA /* ServerConstants.swift */,
+				8D27BB6524D2F09900DE62AA /* InternalError.swift */,
+				8D27BB6724D2F0CF00DE62AA /* ServiceLogic.swift */,
+				8D27BB6924D2F15300DE62AA /* AdditionalServerDataLogic.swift */,
+				8D27BB6B24D2F19600DE62AA /* AdditionalServerParseLogic.swift */,
+				8D27BB6F24D2F21E00DE62AA /* PClassName.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8D27BB6024D2F00500DE62AA /* Trains */ = {
+			isa = PBXGroup;
+			children = (
+				8D27BB6224D2F02900DE62AA /* Models */,
+				8D27BB6124D2F01700DE62AA /* Service */,
+				8D27BB6D24D2F1DC00DE62AA /* TrainDirection.swift */,
+			);
+			path = Trains;
+			sourceTree = "<group>";
+		};
+		8D27BB6124D2F01700DE62AA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8D27BB8D24D2F6AA00DE62AA /* TrainsService.swift */,
+				8D27BB8F24D2F6E200DE62AA /* ConcreteTrainService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8D27BB6224D2F02900DE62AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D27BB8224D2F4F200DE62AA /* TrainInfo.swift */,
+				8D27BB8424D2F52F00DE62AA /* TrainsViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8D27BB7124D2F24000DE62AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D27BB7224D2F27200DE62AA /* URLSession+Extension.swift */,
+				8D27BB7424D2F2A000DE62AA /* Date+Extension.swift */,
+				8D27BB7624D2F2EF00DE62AA /* String+Extension.swift */,
+				8D27BB7824D2F3EA00DE62AA /* UIApplication+Extension.swift */,
+				8D27BB7A24D2F41200DE62AA /* UITableView+Extension.swift */,
+				8D27BB7C24D2F44A00DE62AA /* UITableViewCell+Extension.swift */,
+				8D27BB7E24D2F47800DE62AA /* NSObject+Extension.swift */,
+				8D27BB8024D2F4B100DE62AA /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8D27BB8624D2F5AF00DE62AA /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8D27BB8724D2F5F800DE62AA /* CustomOperationQueue.swift */,
+				8D27BB8924D2F62600DE62AA /* LoadingState.swift */,
+				8D27BB8B24D2F66700DE62AA /* TableViewConstants.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		8D27BB9124D2F76700DE62AA /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				8D27BB9224D2F79400DE62AA /* PaddingLabel.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		8D27BB9424D2F7D900DE62AA /* Trains */ = {
+			isa = PBXGroup;
+			children = (
+				8D27BB9524D2F80E00DE62AA /* Cells */,
+				8D27BB9A24D2F99800DE62AA /* MenuSwiftUIView.swift */,
+				8D27BB9E24D2FA7900DE62AA /* NearestTrainsViewController.swift */,
+				8D27BB9C24D2FA1F00DE62AA /* NearestTrainsDataSource.swift */,
+			);
+			path = Trains;
+			sourceTree = "<group>";
+		};
+		8D27BB9524D2F80E00DE62AA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8D27BB9624D2F85A00DE62AA /* TrainCell.swift */,
+				8D27BB9724D2F85A00DE62AA /* TrainCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +340,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D27BB4824D2EDD900DE62AA /* LaunchScreen.storyboard in Resources */,
+				8D27BB5E24D2EF5300DE62AA /* Colors.xcassets in Resources */,
 				8D27BB4524D2EDD900DE62AA /* Assets.xcassets in Resources */,
+				8D27BB9924D2F85A00DE62AA /* TrainCell.xib in Resources */,
 				8D27BB4324D2EDD700DE62AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,9 +361,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D27BB8E24D2F6AA00DE62AA /* TrainsService.swift in Sources */,
+				8D27BB6C24D2F19600DE62AA /* AdditionalServerParseLogic.swift in Sources */,
+				8D27BB6624D2F09900DE62AA /* InternalError.swift in Sources */,
+				8D27BB7B24D2F41200DE62AA /* UITableView+Extension.swift in Sources */,
+				8D27BB8124D2F4B100DE62AA /* UIColor+Extension.swift in Sources */,
+				8D27BB7D24D2F44A00DE62AA /* UITableViewCell+Extension.swift in Sources */,
+				8D27BB8524D2F52F00DE62AA /* TrainsViewModel.swift in Sources */,
+				8D27BB6424D2F06500DE62AA /* ServerConstants.swift in Sources */,
+				8D27BB8824D2F5F800DE62AA /* CustomOperationQueue.swift in Sources */,
+				8D27BB6A24D2F15300DE62AA /* AdditionalServerDataLogic.swift in Sources */,
+				8D27BB9F24D2FA7900DE62AA /* NearestTrainsViewController.swift in Sources */,
+				8D27BB9324D2F79400DE62AA /* PaddingLabel.swift in Sources */,
+				8D27BB7024D2F21E00DE62AA /* PClassName.swift in Sources */,
+				8D27BB8A24D2F62600DE62AA /* LoadingState.swift in Sources */,
+				8D27BB8C24D2F66700DE62AA /* TableViewConstants.swift in Sources */,
+				8D27BB7524D2F2A000DE62AA /* Date+Extension.swift in Sources */,
+				8D27BB9D24D2FA1F00DE62AA /* NearestTrainsDataSource.swift in Sources */,
+				8D27BB7924D2F3EA00DE62AA /* UIApplication+Extension.swift in Sources */,
+				8D27BB7724D2F2EF00DE62AA /* String+Extension.swift in Sources */,
+				8D27BB9024D2F6E200DE62AA /* ConcreteTrainService.swift in Sources */,
+				8D27BB6E24D2F1DC00DE62AA /* TrainDirection.swift in Sources */,
+				8D27BB8324D2F4F200DE62AA /* TrainInfo.swift in Sources */,
+				8D27BB6824D2F0CF00DE62AA /* ServiceLogic.swift in Sources */,
 				8D27BB4024D2EDD700DE62AA /* ViewController.swift in Sources */,
+				8D27BB7F24D2F47800DE62AA /* NSObject+Extension.swift in Sources */,
 				8D27BB3C24D2EDD700DE62AA /* AppDelegate.swift in Sources */,
 				8D27BB3E24D2EDD700DE62AA /* SceneDelegate.swift in Sources */,
+				8D27BB7324D2F27200DE62AA /* URLSession+Extension.swift in Sources */,
+				8D27BB9824D2F85A00DE62AA /* TrainCell.swift in Sources */,
+				8D27BB9B24D2F99800DE62AA /* MenuSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

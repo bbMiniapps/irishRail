@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="TrainCell" customModule="IrishRailAPI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VuB-KR-AmO" userLabel="hStack">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydD-OI-gob" userLabel="trainCodeLabel">
+                                <rect key="frame" x="0.0" y="38" width="60" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="28r-Zf-kfP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="l8c-kV-hRk" userLabel="vStack">
+                                <rect key="frame" x="70" y="0.0" width="250" height="100"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CGi-nL-pBZ" userLabel="originView">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="51"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="PyH-cp-z9t" userLabel="originStack">
+                                                <rect key="frame" x="0.0" y="0.0" width="250" height="51"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mWT-AP-Tmu" userLabel="timeOriginStack">
+                                                        <rect key="frame" x="0.0" y="8.5" width="126.5" height="34"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="X5t-EY-i3b" userLabel="originalTimeLateStack">
+                                                                <rect key="frame" x="0.0" y="0.0" width="126.5" height="17"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpT-M0-nEe" userLabel="arrivalTimeLabel">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="35.5" height="17"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q04-mQ-Rio" userLabel="arrivalDesc">
+                                                                        <rect key="frame" x="45.5" y="0.0" width="35.5" height="17"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHo-of-G7f" userLabel="originArrivalLateLabel">
+                                                                        <rect key="frame" x="91" y="0.0" width="35.5" height="17"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ESt-pN-nRy" userLabel="originDepStack">
+                                                                <rect key="frame" x="0.0" y="17" width="126.5" height="17"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YL0-v6-M4R" userLabel="departureTimeLabel">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="35.5" height="17"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZA-cI-d9d" userLabel="departureDesc">
+                                                                        <rect key="frame" x="45.5" y="0.0" width="81" height="17"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcz-BS-h8e" userLabel="originStationName">
+                                                        <rect key="frame" x="136.5" y="15.5" width="113.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="PyH-cp-z9t" firstAttribute="top" secondItem="CGi-nL-pBZ" secondAttribute="top" id="Eah-XK-3ne"/>
+                                            <constraint firstItem="PyH-cp-z9t" firstAttribute="leading" secondItem="CGi-nL-pBZ" secondAttribute="leading" id="eNV-fs-iGf"/>
+                                            <constraint firstAttribute="trailing" secondItem="PyH-cp-z9t" secondAttribute="trailing" id="prJ-01-7zV"/>
+                                            <constraint firstAttribute="bottom" secondItem="PyH-cp-z9t" secondAttribute="bottom" id="vka-YE-Np9"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vfL-sn-juY" userLabel="destinationView">
+                                        <rect key="frame" x="0.0" y="51" width="250" height="48"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zV4-Vw-cxc" userLabel="destinationStack">
+                                                <rect key="frame" x="0.0" y="0.0" width="250" height="48"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="HE5-Bh-Pkp" userLabel="timeDestinationStack">
+                                                        <rect key="frame" x="0.0" y="7" width="126.5" height="34"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qjr-bd-HzA" userLabel="destinationTimeLateStack">
+                                                                <rect key="frame" x="0.0" y="0.0" width="126.5" height="17"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2xG-Du-ezS" userLabel="dArrivalTimeLabel">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="35.5" height="17"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68o-6f-5mf" userLabel="dArrivalDesc">
+                                                                        <rect key="frame" x="45.5" y="0.0" width="35.5" height="17"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DqA-qu-zbE" userLabel="destinationArrivalLateLabel">
+                                                                        <rect key="frame" x="91" y="0.0" width="35.5" height="17"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1E-if-4BH" userLabel="dDepartureTimeLabel">
+                                                                <rect key="frame" x="0.0" y="17" width="126.5" height="17"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9C-gC-cVL" userLabel="destinationStationName">
+                                                        <rect key="frame" x="136.5" y="14" width="113.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="zV4-Vw-cxc" firstAttribute="leading" secondItem="vfL-sn-juY" secondAttribute="leading" id="Ea0-ws-7Cu"/>
+                                            <constraint firstItem="zV4-Vw-cxc" firstAttribute="top" secondItem="vfL-sn-juY" secondAttribute="top" id="kjo-7F-R7M"/>
+                                            <constraint firstAttribute="trailing" secondItem="zV4-Vw-cxc" secondAttribute="trailing" id="ol1-1J-3vG"/>
+                                            <constraint firstAttribute="bottom" secondItem="zV4-Vw-cxc" secondAttribute="bottom" id="q8I-UB-H6Y"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hsm-db-smV" userLabel="separatorView">
+                                        <rect key="frame" x="0.0" y="99" width="250" height="1"/>
+                                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="H2m-e2-ywU"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="VuB-KR-AmO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" priority="999" id="9N4-I3-Id2"/>
+                    <constraint firstAttribute="trailing" secondItem="VuB-KR-AmO" secondAttribute="trailing" id="An3-Mo-hsH"/>
+                    <constraint firstAttribute="bottom" secondItem="VuB-KR-AmO" secondAttribute="bottom" id="U9V-h7-JcQ"/>
+                    <constraint firstItem="VuB-KR-AmO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="m8z-nB-bAc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="arrivalDesc" destination="Q04-mQ-Rio" id="4r3-ha-iv3"/>
+                <outlet property="arrivalTimeLabel" destination="UpT-M0-nEe" id="BHq-bT-0uH"/>
+                <outlet property="dArrivalDesc" destination="68o-6f-5mf" id="0Og-bz-PH9"/>
+                <outlet property="dArrivalTimeLabel" destination="2xG-Du-ezS" id="9dq-Bw-kKX"/>
+                <outlet property="dDepartureTimeLabel" destination="N1E-if-4BH" id="ehS-FY-gOX"/>
+                <outlet property="departureDesc" destination="jZA-cI-d9d" id="oSb-L2-Uvi"/>
+                <outlet property="departureTimeLabel" destination="YL0-v6-M4R" id="D2n-kZ-bwx"/>
+                <outlet property="destinationArrivalLateLabel" destination="DqA-qu-zbE" id="3Dg-84-5qW"/>
+                <outlet property="destinationStack" destination="zV4-Vw-cxc" id="cCt-rh-BTg"/>
+                <outlet property="destinationStationName" destination="F9C-gC-cVL" id="PuP-OV-zzP"/>
+                <outlet property="destinationTimeLateStack" destination="Qjr-bd-HzA" id="OnO-KB-KeB"/>
+                <outlet property="hStack" destination="VuB-KR-AmO" id="LOu-VF-2MY"/>
+                <outlet property="originStack" destination="PyH-cp-z9t" id="kdk-bc-gmx"/>
+                <outlet property="originStationName" destination="wcz-BS-h8e" id="XCj-v0-mwT"/>
+                <outlet property="originalArrivalLateLabel" destination="NHo-of-G7f" id="CqQ-Hu-3hZ"/>
+                <outlet property="originalTimeLateStack" destination="X5t-EY-i3b" id="9cd-yK-z9b"/>
+                <outlet property="separatorView" destination="hsm-db-smV" id="QMa-fq-6E0"/>
+                <outlet property="trainCodeLabel" destination="ydD-OI-gob" id="Qba-Bj-b8d"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="171.42857142857142"/>
+        </tableViewCell>
+    </objects>
+</document>
